@@ -22,7 +22,7 @@ public class Ticket {
     public Ticket(String title, String description) {
         this.title = title;
         this.description = description;
-        this.status = status;
+        this.status = TicketStatus.OPEN;
     }
 
     public Long getId() {
