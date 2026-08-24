@@ -19,7 +19,7 @@ public class Ticket {
     public Ticket() {
     }
 
-    public Ticket(String title, String description, TicketStatus status) {
+    public Ticket(String title, String description) {
         this.title = title;
         this.description = description;
         this.status = status;
